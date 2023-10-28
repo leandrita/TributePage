@@ -19,14 +19,22 @@ body {
   min-width: 300px;
   heigth: auto;
   margin: 0 auto;
+  padding: 2rem;
   padding-bottom: 2em auto;
   display: block;
   justify-content: center;
   align-items: center;
 }
 
-h1 {
-  margin: 1em auto;
+#img-caption{
+  text-align: center;
+}
+
+#tribute-info{
+  padding: 3rem 6rem;
+}
+
+h1, h3 {
   text-align: center;
 }
 
@@ -35,14 +43,23 @@ h1 {
   font-style: italic;
 }
 
+.text{
+  text-align: center;
+}
+
 h2 {
   margin: 1em auto;
   text-align: center;
 }
 
 p {
-  text-align: justify;
+  text-align: center;
 }
+
+.footer{
+  padding: 2rem;
+}
+
 a {
   color: black;
 }
